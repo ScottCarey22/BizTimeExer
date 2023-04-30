@@ -7,7 +7,7 @@ const app = express();
 const ExpressError = require("./expressError")
 
 app.use(express.json());
-app.use('/companues', compainesRoutes);
+app.use('/companies', companiesRoutes);
 app.use('/invoices', invoicesRoutes);
 
 
