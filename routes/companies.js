@@ -3,7 +3,7 @@ const slugify = require('slugify');
 const Expresserror = require('../expressError')
 const db = require('../db')
 
-let router = new express.router
+let router = new express.Router();
 
 /** GET / => list of companies.
  *
